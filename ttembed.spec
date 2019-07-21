@@ -16,7 +16,7 @@ in the OS/2 table to zero. That's it; this program is a one-trick pony.
 
 %build
 export CFLAGS="$CFLAGS %{optflags}"
-%make_build
+%make_build CC=%{__cc}
 
 %install
 install -d %{buildroot}%{_bindir}
