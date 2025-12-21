@@ -6,6 +6,7 @@ License:    Public Domain
 URL:        https://github.com/hisdeedsaredust/ttembed
 Source0:    https://github.com/hisdeedsaredust/ttembed/archive/v%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:  gcc
 %description
 Remove embedding limitations from TrueType fonts, by setting the fsType field
